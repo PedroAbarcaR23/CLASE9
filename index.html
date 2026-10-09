@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Clase introductoria profunda sobre PLC: historia, hardware, ciclo de scan, lógica booleana y programación Ladder con simulaciones educativas.">
+  <title>Clase 9 · PLC y programación en escalera</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="model.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="toolbar">
+    <span class="brand">CLASE 9 <span>CONTROL INDUSTRIAL</span></span>
+    <div class="tools">
+      <button id="menuButton" aria-controls="contents" aria-expanded="false">☰ Índice</button>
+      <button id="pauseButton" aria-pressed="false">Pausar simulaciones</button>
+      <button id="notesButton" aria-controls="notes" aria-expanded="false">Guía docente</button>
+      <button id="fullscreenButton">⛶ Pantalla completa</button>
+    </div>
+  </header>
+  <main id="stage" aria-label="Presentación de clase"><article id="slide"></article></main>
+  <footer class="navigation">
+    <button id="previous" aria-label="Diapositiva anterior">← Anterior</button>
+    <span id="counter" aria-live="polite"></span><span id="sectionName"></span>
+    <button id="next" aria-label="Diapositiva siguiente">Siguiente →</button>
+  </footer>
+  <div class="progress" role="progressbar" aria-label="Avance de la clase" aria-valuemin="1"><div id="progressFill"></div></div>
+  <aside id="contents" class="drawer" hidden><div class="drawer-head"><h2>Clase 9</h2><button id="closeMenu" aria-label="Cerrar índice">✕</button></div><nav id="slideList"></nav></aside>
+  <aside id="notes" class="notes" hidden></aside>
+  <p id="announcement" class="sr-only" role="status"></p>
+</body>
+</html>
